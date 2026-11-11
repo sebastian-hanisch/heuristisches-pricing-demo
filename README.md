@@ -1,7 +1,6 @@
 # Heuristisches Pricing: erst gelockert, exakt nur zum Beweis – Streamlit-Demo
 
-<!-- Nach dem Deploy hier direkt den Live-Link einsetzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-heuristisches-pricing-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-heuristisches-pricing-demo.streamlit.app/)**
 
 Demo der Linie „Ressourcenwege und Spaltenerzeugung“ in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Die **Spaltenerzeugung** löst eine große Routenplanung in Runden: Ein **Master-Problem**
 (ein lineares Programm) wählt aus den bekannten Routen die billigste Überdeckung der Kunden und liefert **Dualpreise**; das **Pricing** sucht eine neue Route mit negativen **reduzierten Kosten** (Weglänge minus die Dualpreise der besuchten Kunden), und zwar mit dem
