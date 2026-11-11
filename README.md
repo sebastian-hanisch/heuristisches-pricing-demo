@@ -24,7 +24,7 @@ weil dort das Pricing überwiegt und ein Master-LP nur etwa 380 Labels kostet; b
 
 ## Befunde und Korrekturen gegenüber dem Plan
 
-- **Neu gerechnet statt übernommen (Zählungen):** Die 184 Läufe der Messreihen (46 Instanzen × 4 Varianten) sind mit dem Kern dieser Demo neu gerechnet (`tools/baender_bauen.py`), kein Lauf ist abgebrochen. Beim Bau wurde jede Zeile mit der Rohausgabe der früheren Messung verglichen: Runden, Spalten,
+- **Neu gerechnet statt übernommen (Zählungen):** Die 184 Läufe der Messreihen (46 Instanzen × 4 Varianten) sind mit dem Kern dieser Demo neu gerechnet (`tools/baender_bauen.py`), kein Lauf ist abgebrochen. Beim Bau wurde jede Zeile mit der Rohausgabe der früheren, nicht veröffentlichten Messung verglichen: Runden, Spalten,
   Labels (gesamt, im Limit-Pricing, im exakten Pricing), Limit-Treffer und exakte Aufrufe stimmen in 184 von 184 Zeilen überein, die Endschranke bis auf die Rundung der Rohausgabe (größte Abweichung unter 10⁻⁶). Dieser Abgleich ist nicht Teil der Testsuite (die Rohausgaben liegen nicht im Repo);
   `data/vormessung_abgleich.json` hält ihn fest, ein Test prüft die Datei, und eine Stichprobe von 4 Instanzen (16 Läufe) wird in der Suite neu gerechnet.
 - **Nicht neu gemessen (Zeit):** Die Zeitreihe (360 Läufe: 30 Instanzen × 4 Varianten × 3 Wiederholungen, ein Prozess, Rechner durch andere Sitzungen ausgelastet) stammt aus der Messdatei der früheren Messung (`data/zeit_vormessung.json`) und ist **nicht mit dem Kern dieser Demo neu gemessen.** Runden und Labels dieser 360 Läufe stimmen
