@@ -1,0 +1,11 @@
+{
+ "hinweis": "Vergleich jeder neu gerechneten Zeile mit der Rohausgabe der Vormessung (out_v13_*.txt) in Iterationen, Spalten, Labels (gesamt, Limit, exakt), Limit-Treffern, exakten Aufrufen und Endschranke (Toleranz 1e-5).",
+ "stand": "2026-11-11",
+ "zeilen_neu": 184,
+ "zeilen_gleich": 184,
+ "zeilen_abweichend": 0,
+ "zeilen_ohne_rohzeile": 0,
+ "schranke_groesste_abweichung": 4.893915956927231e-07,
+ "abgebrochene_laeufe": 0,
+ "zeitzeilen": 360
+}
